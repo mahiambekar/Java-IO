@@ -9,7 +9,7 @@ import java.io.*;
 import java.util.Date;
 public class Main
 {
-	public static void main(String[] args) {
+	public static void main(String[] args)throws Exception {
 	    FileInputStream fin = new FileInputStream("test.txt");
         DataInputStream din = new DataInputStream(fin);
         int a = din.readInt();
